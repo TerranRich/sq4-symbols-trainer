@@ -1,0 +1,32 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.panel {
+  background: #282030;
+
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 400px;
+  height: 100px;
+}
+img.symbol {
+  image-rendering: pixelated;
+  margin-right: 15px;
+  width: 39px;
+  height: 45px;
+}
+.actions {
+  margin-top: 20px;
+  width: 400px;
+
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+button.randomize {
+  font-weight: bold;
+  font-size: 24px;
+}
