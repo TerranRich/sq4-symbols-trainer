@@ -3,6 +3,7 @@ body {
 }
 .panel {
   background: #282030;
+  cursor: pointer;
 
   display: flex;
   flex-flow: column;
@@ -23,10 +24,21 @@ img.symbol {
   width: 400px;
 
   display: flex;
-  flex-flow: column;
+  flex-flow: row;
   align-items: center;
+  justify-content: space-evenly;
+}
+.actions button {
+  cursor: pointer;
+  font-size: 24px;
 }
 button.randomize {
   font-weight: bold;
-  font-size: 24px;
+}
+button.toggle {
+  font-style: italic;
+}
+
+.hidden {
+  display: none;
 }
